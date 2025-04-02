@@ -2,6 +2,8 @@ import { motion } from "framer-motion";
 
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
+import Position from "./Position";
+
 
 const Hero = () => {
   return (
@@ -18,10 +20,11 @@ const Hero = () => {
           <h1 className={`${styles.heroHeadText} text-white`}>
             Hi, I'm <span className='text-[#915EFF]'>Jay D Doshi</span>
           </h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
+          {/* <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             I am 3D visuals, user <br className='sm:block hidden' />
             interfaces and web applications
-          </p>
+          </p> */}
+          <Position />
         </div>
       </div>
 
