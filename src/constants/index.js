@@ -23,6 +23,11 @@ import {
   jobit,
   tripguide,
   threejs,
+  backend_icon,
+  team_leader_icon,
+  software_developer_icon,
+  ai_and_ml_icon,
+  backend_icon2,  
 } from "../assets";
 
 export const navLinks = [
@@ -42,20 +47,20 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
-    icon: web,
+    title: "Software Development",
+    icon: software_developer_icon,
   },
   {
-    title: "Problem Solver",
-    icon: mobile,
+    title: "AI and Machine Learning",
+    icon: ai_and_ml_icon,
   },
   {
-    title: "Backend Developer",
-    icon: backend,
+    title: "Backend Development",
+    icon: backend_icon2,
   },
   {
-    title: "Team Leader",
-    icon: creator,
+    title: "Team Leadership & Project Management",
+    icon: team_leader_icon,
   },
 ];
 
@@ -116,7 +121,7 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
+    title: "Team Leader",
     company_name: "Starbucks",
     icon: starbucks,
     iconBg: "#383E56",

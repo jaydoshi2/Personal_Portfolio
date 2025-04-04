@@ -29,7 +29,11 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
-
+import backend_icon from "./backend_icon.png";
+import team_leader_icon from "./team_leader_icon.png";
+import software_developer_icon from'./software_developer_icon.png';
+import ai_and_ml_icon from './ai_and_ml_icon.jpg';
+import backend_icon2 from './backend_icon2.png';
 export {
   logo,
   backend,
@@ -59,4 +63,9 @@ export {
   carrent,
   jobit,
   tripguide,
+  backend_icon,
+  team_leader_icon,
+  software_developer_icon,
+  ai_and_ml_icon,
+  backend_icon2,
 };
