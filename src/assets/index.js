@@ -20,6 +20,15 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import github_logo from "./tech/images.jpeg"
+import java_logo from './tech/java-logo.png';
+import python_logo from './tech/python-logo.jpeg';
+import django_logo from './tech/django-logo2.jpeg';
+import cpp_logo from './tech/cpp_logo.jpeg';
+import c_logo from './tech/C_Logo.png';
+import nextjs_logo from './tech/nextjs-icon.png';
+import aws_logo from './tech/aws_logo.png';
+
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -34,6 +43,8 @@ import team_leader_icon from "./team_leader_icon.png";
 import software_developer_icon from'./software_developer_icon.png';
 import ai_and_ml_icon from './ai_and_ml_icon.jpg';
 import backend_icon2 from './backend_icon2.png';
+import jd_logo from './jd_logo.png';
+import lj_logo from './lj_logo.png';
 export {
   logo,
   backend,
@@ -68,4 +79,15 @@ export {
   software_developer_icon,
   ai_and_ml_icon,
   backend_icon2,
+  jd_logo,
+  lj_logo,
+  github_logo,
+  django_logo,
+  java_logo,
+  python_logo,
+  cpp_logo,
+  c_logo,
+  nextjs_logo,
+  aws_logo,
+  
 };

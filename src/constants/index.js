@@ -1,8 +1,4 @@
 import {
-  mobile,
-  backend,
-  creator,
-  web,
   javascript,
   typescript,
   html,
@@ -15,19 +11,24 @@ import {
   git,
   figma,
   docker,
-  meta,
   starbucks,
-  tesla,
-  shopify,
   carrent,
   jobit,
   tripguide,
   threejs,
-  backend_icon,
   team_leader_icon,
   software_developer_icon,
   ai_and_ml_icon,
   backend_icon2,  
+  lj_logo,
+  github_logo,
+  java_logo,
+  django_logo,
+  python_logo,
+  cpp_logo,
+  c_logo,
+  nextjs_logo,
+  aws_logo,
 } from "../assets";
 
 export const navLinks = [
@@ -36,8 +37,16 @@ export const navLinks = [
     title: "About",
   },
   {
+    id: "work",
+    title: "Experience",
+  },
+  {
     id: "projects",
     title: "Projects",
+  },
+  {
+    id: "certificates",
+    title: "Certificates",
   },
   {
     id: "contact",
@@ -65,14 +74,22 @@ const services = [
 ];
 
 const technologies = [
-  {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
+  // {
+  //   name: "HTML 5",
+  //   icon: html,
+  // },
+  // {
+  //   name: "C logo",
+  //   icon: c_logo,
+  // },
+  // {
+  //   name: "c++ logo",
+  //   icon: cpp_logo,
+  // },
+  // {
+  //   name: "CSS 3",
+  //   icon: css,
+  // },
   {
     name: "JavaScript",
     icon: javascript,
@@ -82,16 +99,24 @@ const technologies = [
     icon: typescript,
   },
   {
+    name: "Java logo",
+    icon: java_logo,
+  },
+  {
+    name: "Python logo",
+    icon: python_logo,
+  }, 
+  {
     name: "React JS",
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "Nextjs logo",
+    icon: nextjs_logo,
   },
   {
-    name: "Tailwind CSS",
-    icon: tailwind,
+    name: "django",
+    icon: django_logo,
   },
   {
     name: "Node JS",
@@ -102,35 +127,34 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "github",
+    icon: github_logo,
   },
   {
     name: "git",
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
-  },
-  {
     name: "docker",
     icon: docker,
+  },
+  {
+    name: "aws",
+    icon: aws_logo,
   },
 ];
 
 const experiences = [
   {
     title: "Team Leader",
-    company_name: "Starbucks",
-    icon: starbucks,
+    company_name: "Lok Jagruti University",
+    icon: lj_logo,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "January 2023 - September 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Managed 4 teams on diverse projects at LJIET, gaining expertise in various technologies while simultaneously developingsoft skills such as effective communication, project management, collaboration, problem solving, and leadership.",
+      "Conducted training sessions on critical project concepts like Schema Designing and Architecture Project, introducingtools such as Git, GitHub, ExcailDraw, and AWS while embedding best practices, to enhance team capabilities; equippedteammates with technical proficiency and boosted project contributions",
+      "Applied a weekly progress review, streamlining communication and aligning teammates toward project goals by assigningtasks based on individual strengths, to foster collaboration; achieved increase in project delivery efficiency..",
     ],
   },
   // {

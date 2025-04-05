@@ -6,7 +6,7 @@ import { Github, Linkedin, Twitter, Code } from "lucide-react"
 
 import { styles } from "../styles"
 import { navLinks } from "../constants"
-import { logo, menu, close } from "../assets"
+import { logo, menu, close,jd_logo } from "../assets"
 
 const Navbar = () => {
   const [active, setActive] = useState("")
@@ -44,7 +44,7 @@ const Navbar = () => {
             window.scrollTo(0, 0)
           }}
         >
-          <img src={logo || "/placeholder.svg"} alt="logo" className="w-9 h-9 object-contain" />
+          <img src={jd_logo} alt="logo" className="w-16 h-16 object-contain" />
           <p className="text-white text-[18px] font-bold cursor-pointer flex">
             &nbsp;
             <span className="sm:block hidden">Jay.D.Doshi</span>
