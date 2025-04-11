@@ -29,6 +29,9 @@ import {
   c_logo,
   nextjs_logo,
   aws_logo,
+  Deeptruth_logo,
+  SportSight_logo,
+  skillbridge_logo,
 } from "../assets";
 
 export const navLinks = [
@@ -227,67 +230,68 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "SPORTSIGHT AI",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "SPORTSIGHT is an AI-powered football analytics system that detects players, referees, and the ball using YOLOv8. It uses KMeans for team classification, optical flow for camera movement tracking, and perspective transformation for real-world speed and distance calculations.",
     tags: [
       {
-        name: "react",
+        name: "Python",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "OpenCV",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "YOLOv8",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: SportSight_logo,
+    source_code_link: "https://github.com/jaydoshi2/SportsSight",
   },
   {
-    name: "Job IT",
+    name: "Deeptruth AI",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "DeepTruth is an innovative fact-checking platform that combines the power of Google's Gemini AI and DistilBERT to provide real-time analysis of news articles and claims. Our Chrome extension makes it easy to verify information while browsing the web.",
     tags: [
       {
-        name: "react",
+        name: "React Js",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Django",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "HuggingFace",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: Deeptruth_logo,
+    source_code_link: "https://github.com/jaydoshi2/DeepTruth",
   },
   {
-    name: "Trip Guide",
+    name: "SkillsBridge",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Welcome to SkillsBridge, an innovative EdTech platform that bridges the skills gap with engaging, personalized learning experiences. Built with a microservices architecture, this platform combines AI-powered features like a recommendation engine and a chatbot, detailed user insights, and robust security features to create a seamless, secure, and insightful learning environment.",
     tags: [
       {
-        name: "nextjs",
+        name: "React js",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Node js",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Django",
         color: "pink-text-gradient",
       },
+
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: skillbridge_logo,
+    source_code_link: "https://github.com/jaydoshi2/Sem4_FSD_Group_Project",
   },
 ];
 

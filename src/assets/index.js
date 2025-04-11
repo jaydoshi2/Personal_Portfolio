@@ -6,6 +6,8 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import SportSight_logo from "./SportsSight_logo.png"
+import Deeptruth_logo from "./deeptruth.webp";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -28,7 +30,7 @@ import cpp_logo from './tech/cpp_logo.jpeg';
 import c_logo from './tech/C_Logo.png';
 import nextjs_logo from './tech/nextjs-icon.png';
 import aws_logo from './tech/aws_logo.png';
-
+import skillbridge_logo from "./skillsbridge_logo.jpeg";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -89,5 +91,7 @@ export {
   c_logo,
   nextjs_logo,
   aws_logo,
-  
+  SportSight_logo,
+  Deeptruth_logo,
+  skillbridge_logo,
 };
