@@ -32,6 +32,7 @@ import {
   Deeptruth_logo,
   SportSight_logo,
   skillbridge_logo,
+  Multifunctional_car_Logo,
 } from "../assets";
 
 export const navLinks = [
@@ -160,45 +161,7 @@ const experiences = [
       "Applied a weekly progress review, streamlining communication and aligning teammates toward project goals by assigningtasks based on individual strengths, to foster collaboration; achieved increase in project delivery efficiency..",
     ],
   },
-  // {
-  //   title: "React Native Developer",
-  //   // company_name: "Tesla",
-  //   icon: tesla,
-  //   iconBg: "#E6DEDD",
-  //   date: "Jan 2021 - Feb 2022",
-  //   points: [
-  //     "Developing and maintaining web applications using React.js and other related technologies.",
-  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-  //     "Implementing responsive design and ensuring cross-browser compatibility.",
-  //     "Participating in code reviews and providing constructive feedback to other developers.",
-  //   ],
-  // },
-  // {
-  //   title: "Web Developer",
-  //   // company_name: "Shopify",
-  //   icon: shopify,
-  //   iconBg: "#383E56",
-  //   date: "Jan 2022 - Jan 2023",
-  //   points: [
-  //     "Developing and maintaining web applications using React.js and other related technologies.",
-  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-  //     "Implementing responsive design and ensuring cross-browser compatibility.",
-  //     "Participating in code reviews and providing constructive feedback to other developers.",
-  //   ],
-  // },
-  // {
-  //   title: "Full stack Developer",
-  //   // company_name: "Meta",
-  //   icon: meta,
-  //   iconBg: "#E6DEDD",
-  //   date: "Jan 2023 - Present",
-  //   points: [
-  //     "Developing and maintaining web applications using React.js and other related technologies.",
-  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-  //     "Implementing responsive design and ensuring cross-browser compatibility.",
-  //     "Participating in code reviews and providing constructive feedback to other developers.",
-  //   ],
-  // },
+  
 ];
 
 const testimonials = [
@@ -274,7 +237,7 @@ const projects = [
   {
     name: "SkillsBridge",
     description:
-      "Welcome to SkillsBridge, an innovative EdTech platform that bridges the skills gap with engaging, personalized learning experiences. Built with a microservices architecture, this platform combines AI-powered features like a recommendation engine and a chatbot, detailed user insights, and robust security features to create a seamless, secure, and insightful learning environment.",
+      "Welcome to SkillsBridge, an innovative EdTech platform that bridges the skills gap with engaging, personalized learning experiences.This platform combines AI-powered features like a recommendation engine,Mcq generation and a NN based chatbot, and detailed user insights for admin.",
     tags: [
       {
         name: "React js",
@@ -292,6 +255,29 @@ const projects = [
     ],
     image: skillbridge_logo,
     source_code_link: "https://github.com/jaydoshi2/Sem4_FSD_Group_Project",
+  },
+
+  {
+    name: "Multifunctional Car IOT ",
+    description:
+      "This is the Smart Obstacle Avoidance and Bluetooth Controlled Vehicle project! This Arduino-based creation combines ultrasonic sensors, servo motors, Bluetooth communication, and teamwork to bring a robot to life.",
+    tags: [
+      {
+        name: "React js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Node js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Django",
+        color: "pink-text-gradient",
+      },
+
+    ],
+    image: Multifunctional_car_Logo,
+    source_code_link: "https://github.com/jaydoshi2/Multifunctional-Car",
   },
 ];
 

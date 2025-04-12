@@ -2,11 +2,25 @@
 
 import { useEffect, useState } from "react"
 import { Link } from "react-router-dom"
-import { Github, Linkedin, Twitter, Code } from "lucide-react"
+import { Github, Linkedin, Code, X as XIcon } from "lucide-react"
 
 import { styles } from "../styles"
 import { navLinks } from "../constants"
-import { logo, menu, close,jd_logo } from "../assets"
+import { logo, menu, close, jd_logo } from "../assets"
+
+const IconWithTooltip = ({ href, label, children }) => (
+  <a
+    href={href}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="relative group text-secondary hover:text-white transition-colors"
+  >
+    {children}
+    <span className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 px-2 py-1 text-xs bg-white text-black rounded opacity-0 group-hover:opacity-100 transition-opacity z-50 whitespace-nowrap">
+      {label}
+    </span>
+  </a>
+)
 
 const Navbar = () => {
   const [active, setActive] = useState("")
@@ -24,7 +38,6 @@ const Navbar = () => {
     }
 
     window.addEventListener("scroll", handleScroll)
-
     return () => window.removeEventListener("scroll", handleScroll)
   }, [])
 
@@ -70,40 +83,20 @@ const Navbar = () => {
 
         {/* Social Icons and Resume Button - Right Section */}
         <div className="hidden md:flex items-center gap-4">
-          <a
-            href="https://github.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-secondary hover:text-white transition-colors"
-          >
+          <IconWithTooltip href="https://github.com" label="GitHub">
             <Github size={20} />
-          </a>
-          <a
-            href="https://linkedin.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-secondary hover:text-white transition-colors"
-          >
+          </IconWithTooltip>
+          <IconWithTooltip href="https://linkedin.com" label="LinkedIn">
             <Linkedin size={20} />
-          </a>
-          <a
-            href="https://twitter.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-secondary hover:text-white transition-colors"
-          >
-            <Twitter size={20} />
-          </a>
-          <a
-            href="https://leetcode.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-secondary hover:text-white transition-colors"
-          >
+          </IconWithTooltip>
+          <IconWithTooltip href="https://x.com" label="X">
+            <XIcon size={20} />
+          </IconWithTooltip>
+          <IconWithTooltip href="https://leetcode.com" label="LeetCode">
             <Code size={20} />
-          </a>
+          </IconWithTooltip>
           <a
-            href="/resume.pdf"
+            href="https://drive.google.com/file/d/1AoXKlnZ0xXXy1L5yS7QvvuBb-1IyoV9j/view?usp=sharing"
             download
             className="ml-2 px-4 py-2 bg-tertiary text-white rounded-lg font-medium text-sm hover:bg-opacity-80 transition-all"
           >
@@ -150,38 +143,18 @@ const Navbar = () => {
 
               {/* Social Icons in Mobile Menu */}
               <div className="flex justify-between">
-                <a
-                  href="https://github.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-secondary hover:text-white transition-colors"
-                >
+                <IconWithTooltip href="https://github.com" label="GitHub">
                   <Github size={20} />
-                </a>
-                <a
-                  href="https://linkedin.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-secondary hover:text-white transition-colors"
-                >
+                </IconWithTooltip>
+                <IconWithTooltip href="https://linkedin.com" label="LinkedIn">
                   <Linkedin size={20} />
-                </a>
-                <a
-                  href="https://twitter.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-secondary hover:text-white transition-colors"
-                >
-                  <Twitter size={20} />
-                </a>
-                <a
-                  href="https://leetcode.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-secondary hover:text-white transition-colors"
-                >
+                </IconWithTooltip>
+                <IconWithTooltip href="https://x.com" label="X">
+                  <XIcon size={20} />
+                </IconWithTooltip>
+                <IconWithTooltip href="https://leetcode.com" label="LeetCode">
                   <Code size={20} />
-                </a>
+                </IconWithTooltip>
               </div>
 
               {/* Resume Button in Mobile Menu */}
@@ -201,4 +174,3 @@ const Navbar = () => {
 }
 
 export default Navbar
-

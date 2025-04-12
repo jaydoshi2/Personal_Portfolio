@@ -31,6 +31,7 @@ import c_logo from './tech/C_Logo.png';
 import nextjs_logo from './tech/nextjs-icon.png';
 import aws_logo from './tech/aws_logo.png';
 import skillbridge_logo from "./skillsbridge_logo.jpeg";
+import Multifunctional_car_Logo from "./Multifunctional_car.jpg";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -94,4 +95,5 @@ export {
   SportSight_logo,
   Deeptruth_logo,
   skillbridge_logo,
+  Multifunctional_car_Logo,
 };
