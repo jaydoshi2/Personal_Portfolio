@@ -32,6 +32,10 @@ import nextjs_logo from './tech/nextjs-icon.png';
 import aws_logo from './tech/aws_logo.png';
 import skillbridge_logo from "./skillsbridge_logo.jpeg";
 import Multifunctional_car_Logo from "./Multifunctional_car.jpg";
+import rocketHacks_pic from "./Rockethacks.jpg";
+import Lj_innovation_Pic from "./Lj_innovation_villlage2.jpg";
+import Startup_event from "./Startup2.jpg";
+import TechnoQuiz from "./TechoQuiz2.jpg";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -96,4 +100,8 @@ export {
   Deeptruth_logo,
   skillbridge_logo,
   Multifunctional_car_Logo,
+  Lj_innovation_Pic,
+  rocketHacks_pic,
+  Startup_event,
+  TechnoQuiz,
 };
