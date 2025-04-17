@@ -223,10 +223,7 @@ const technologies = [
     name: "git",
     icon: git,
   },
-  {
-    name: "figma",
-    icon: figma,
-  },
+
   {
     name: "docker",
     icon: docker,
@@ -383,11 +380,6 @@ const projects = [
 
 export { services, technologies, experiences, testimonials, projects };
 ```
-</details>
-
-<details>
-<summary><code>index.css</code></summary>
-
 ```css
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
