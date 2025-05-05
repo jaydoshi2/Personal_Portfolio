@@ -48,10 +48,10 @@ export const navLinks = [
     id: "Projects",
     title: "Projects",
   },
-  {
-    id: "certificates",
-    title: "Certificates",
-  },
+  // {
+  //   id: "certificates",
+  //   title: "Certificates",
+  // },
   {
     id: "contact",
     title: "Contact",
@@ -167,10 +167,10 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
+      "Jay has good skills in web development. He is a quick learner and has a great attitude towards work.",
+    name: "Jay Patel",
+    designation: "CEO",
+    company: "Emerging Five",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {

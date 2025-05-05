@@ -83,16 +83,16 @@ const Navbar = () => {
 
         {/* Social Icons and Resume Button - Right Section */}
         <div className="hidden md:flex items-center gap-4">
-          <IconWithTooltip href="https://github.com" label="GitHub">
+          <IconWithTooltip href="https://github.com/jaydoshi2" label="GitHub">
             <Github size={20} />
           </IconWithTooltip>
-          <IconWithTooltip href="https://linkedin.com" label="LinkedIn">
+          <IconWithTooltip href="https://linkedin.com/in/jay-doshi-812662262" label="LinkedIn">
             <Linkedin size={20} />
           </IconWithTooltip>
-          <IconWithTooltip href="https://x.com" label="X">
+          <IconWithTooltip href="https://x.com/doshijay838" label="X">
             <XIcon size={20} />
           </IconWithTooltip>
-          <IconWithTooltip href="https://leetcode.com" label="LeetCode">
+          <IconWithTooltip href="https://leetcode.com/u/workingjay2010/" label="LeetCode">
             <Code size={20} />
           </IconWithTooltip>
           <a
