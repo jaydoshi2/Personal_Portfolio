@@ -12,26 +12,11 @@
   </div>
 
   <h3 align="center">A 3D Developer Portfolio</h3>
-
-   <div align="center">
-     Build this project step by step with our detailed tutorial on <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a> YouTube. Join the JSM family!
-    </div>
 </div>
 
-## 📋 <a name="table">Table of Contents</a>
-
-1. 🤖 [Introduction](#introduction)
-2. ⚙️ [Tech Stack](#tech-stack)
-3. 🔋 [Features](#features)
-4. 🤸 [Quick Start](#quick-start)
-5. 🕸️ [Snippets](#snippets)
-6. 🔗 [Links](#links)
-7. 🚀 [More](#more)
 
 
-## <a name="introduction">🤖 Introduction</a>
 
-By developing this project, you will gain hands-on experience in crafting immersive web experiences, mastering 3D libraries, and implementing engaging animations. The combination of creativity and technical skills showcased in this project serves as an excellent learning opportunity for developers seeking to enhance their portfolio and captivate users with cutting-edge web design.
 
 
 ## <a name="tech-stack">⚙️ Tech Stack</a>
@@ -223,10 +208,7 @@ const technologies = [
     name: "git",
     icon: git,
   },
-  {
-    name: "figma",
-    icon: figma,
-  },
+
   {
     name: "docker",
     icon: docker,
@@ -383,11 +365,6 @@ const projects = [
 
 export { services, technologies, experiences, testimonials, projects };
 ```
-</details>
-
-<details>
-<summary><code>index.css</code></summary>
-
 ```css
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
@@ -754,13 +731,3 @@ module.exports = {
 ## <a name="links">🔗 Links</a>
 
 Models and Assets used in the project can be found [here](https://drive.google.com/drive/folders/1KVU8iaH0E_JFtShNiR3BgCSA3pawXY4Z)
-
-## <a name="more">🚀 More</a>
-
-**Advance your skills with Next.js Pro Course**
-
-Enjoyed creating this project? Dive deeper into our PRO courses for a richer learning experience. They're packed with detailed explanations, cool features, and exercises to boost your skills. Give it a go!
-
-<a href="https://www.jsmastery.pro/ultimate-next-course" target="_blank">
-<img src="https://i.ibb.co/804sPK6/Image-720.png" alt="Project Banner">
-</a>
