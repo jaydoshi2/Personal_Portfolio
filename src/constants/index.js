@@ -33,6 +33,7 @@ import {
   SportSight_logo,
   skillbridge_logo,
   Multifunctional_car_Logo,
+  civic_infotech_logo,
 } from "../assets";
 
 export const navLinks = [
@@ -149,6 +150,18 @@ const technologies = [
 ];
 
 const experiences = [
+  {
+    title:"IT Intern",
+    company_name: "Civic Infotech",
+    icon: civic_infotech_logo,
+    iconBg: "#383E56",
+    date: "May 2024 - June 2024",
+    points: [
+      "Diagnosed and resolved hardware and software issues, efficiently managed internal support tickets, and delivered responsive first-level technical support to end users.",
+      "Operated and maintained Linux-based systems using command-line tools, and utilized Microsoft Office to create clear and concise technical documentation.",
+      "Communicated directly with customers to address IT-related concerns, applying analytical thinking and a user-focused mindset to deliver effective solutions.",
+    ],
+  },
   {
     title: "Team Leader",
     company_name: "Lok Jagruti University",

@@ -36,8 +36,8 @@ const About = () => {
     "Versatile software developer with robust background in development, logical structuring, and architecture design.",
     "Extensive hands-on experience with React, Next.js, Django, and Spring Boot frameworks.",
     "Led teams building innovative real-time applications including collaborative editing platforms and AI-driven learning systems.",
+    "Worked on IT Technician role and worked on Linux OS and Microsoft Offices-Suite, also worked on managing internal support tickets and delivering first-level technical support to end users.",
     "Passionate about creating efficient, scalable, and user-friendly solutions for real-world challenges.",
-    "Thrive on collaboration and excited to bring your vision to life.",
   ]
 
   return (

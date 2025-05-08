@@ -4,10 +4,11 @@ import { rocketHacks_pic, Lj_innovation_Pic, TechnoQuiz, Startup_event } from ".
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "./Carousel"
 
 const exampleImages = [
-  { src: Lj_innovation_Pic, alt: "LJ innovation", index: 0 },
-  { src: Startup_event, alt: "Startup Event", index: 1 },
-  { src: TechnoQuiz, alt: "Techno Quiz", index: 2 },
-  { src: rocketHacks_pic, alt: "RocketHacks 2025", index: 3 },
+  { src: rocketHacks_pic, alt: "RocketHacks 2025", index: 0 },
+  { src: Lj_innovation_Pic, alt: "LJ innovation", index: 1 },
+  { src: Startup_event, alt: "LJ Startup Event", index: 2 },
+  { src: TechnoQuiz, alt: "Techno Quiz", index: 3 },
+  
 ]
 
 const Gallery = ({ images = exampleImages }) => {
