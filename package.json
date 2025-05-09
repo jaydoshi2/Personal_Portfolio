@@ -1,9 +1,9 @@
 {
+  "homepage": "https://jaydoshi2.github.io/Personal_Portfolio",
   "name": "3dfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://jdoshi2.github.io/Personal_Portfolio",
   "scripts": {
     "dev": "vite --host",
     "build": "vite build",
