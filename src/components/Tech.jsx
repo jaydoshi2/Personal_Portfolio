@@ -1,6 +1,6 @@
 import React from "react";
 
-import { BallCanvas } from "./canvas"
+import { BallCanvas } from "./canvas/index.js"
 import { SectionWrapper } from "../hoc"
 import { technologies } from "../constants"
 
