@@ -53,6 +53,8 @@ import ai_and_ml_icon from './ai_and_ml_icon.jpg';
 import backend_icon2 from './backend_icon2.png';
 import jd_logo from './jd_logo.png';
 import lj_logo from './lj_logo.png';
+
+import Emerging_five_logo from './company/Emerging_Five_logo.png'
 export {
   logo,
   backend,
@@ -106,4 +108,5 @@ export {
   Startup_event,
   TechnoQuiz,
   civic_infotech_logo,
+  Emerging_five_logo,
 };

@@ -34,6 +34,7 @@ import {
   skillbridge_logo,
   Multifunctional_car_Logo,
   civic_infotech_logo,
+  Emerging_five_logo,
 } from "../assets";
 
 export const navLinks = [
@@ -150,12 +151,24 @@ const technologies = [
 ];
 
 const experiences = [
+   {
+    title:"Full Stack Intern",
+    company_name: "Emerging Five",
+    icon: Emerging_five_logo,
+    iconBg: "#383E56",
+    date: "September 2022- Febuary 2023",
+    points: [
+      "Leveraged MERN stack to craft UI, REST APIs,Backend Logic, and Database Integration, improves performance by 20%.",
+      "Delivered all assigned tasks within weekly sprints, collaborating with other developers to maintain a 95% on-time completion rate.",
+      "Debugged and resolved 50% of critical bugs through root-cause analysis, reducing system errors by 30%.",
+    ],
+  },
   {
     title:"IT Intern",
     company_name: "Civic Infotech",
     icon: civic_infotech_logo,
     iconBg: "#383E56",
-    date: "May 2024 - June 2024",
+    date: "June 2023 - August 2023",
     points: [
       "Diagnosed and resolved hardware and software issues, efficiently managed internal support tickets, and delivered responsive first-level technical support to end users.",
       "Operated and maintained Linux-based systems using command-line tools, and utilized Microsoft Office to create clear and concise technical documentation.",
@@ -167,7 +180,7 @@ const experiences = [
     company_name: "Lok Jagruti University",
     icon: lj_logo,
     iconBg: "#383E56",
-    date: "January 2023 - September 2024",
+    date: "March 2023 - September 2024",
     points: [
       "Managed 4 teams on diverse projects at LJIET, gaining expertise in various technologies while simultaneously developingsoft skills such as effective communication, project management, collaboration, problem solving, and leadership.",
       "Conducted training sessions on critical project concepts like Schema Designing and Architecture Project, introducingtools such as Git, GitHub, ExcailDraw, and AWS while embedding best practices, to enhance team capabilities; equippedteammates with technical proficiency and boosted project contributions",
