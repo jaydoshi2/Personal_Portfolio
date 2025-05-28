@@ -35,6 +35,7 @@ import {
   Multifunctional_car_Logo,
   civic_infotech_logo,
   Emerging_five_logo,
+  Notion_image,
 } from "../assets";
 
 export const navLinks = [
@@ -239,6 +240,27 @@ const projects = [
     image: SportSight_logo,
     source_code_link: "https://github.com/jaydoshi2/SportsSight",
   },
+   {
+    name: "Notion Clone ",
+    description:
+      "A modern Notion-style web app featuring real-time collaboration, AI-powered translation, and secure authentication. It’s built on a serverless stack using Cloudflare Workers, Liveblocks, and Firebase Firestore for scalable performance and live editing.",
+    tags: [
+      {
+        name: "Next Js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "TypeScript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Liveblocks",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: Notion_image,
+    source_code_link: "https://github.com/jaydoshi2/SportsSight",
+  },
   {
     name: "Deeptruth AI",
     description:
@@ -263,7 +285,7 @@ const projects = [
   {
     name: "SkillsBridge",
     description:
-      "Welcome to SkillsBridge, an innovative EdTech platform that bridges the skills gap with engaging, personalized learning experiences.This platform combines AI-powered features like a recommendation engine,Mcq generation and a NN based chatbot, and detailed user insights for admin.",
+      "SkillsBridge, an innovative EdTech platform that bridges the skills gap with engaging, personalized learning experiences.This platform combines AI-powered features like a recommendation engine,Mcq generation and a NN based chatbot, and detailed user insights for admin.",
     tags: [
       {
         name: "React js",

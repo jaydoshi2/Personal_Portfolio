@@ -55,6 +55,7 @@ import jd_logo from './jd_logo.png';
 import lj_logo from './lj_logo.png';
 
 import Emerging_five_logo from './company/Emerging_Five_logo.png'
+import Notion_image from './notion_image.png'
 export {
   logo,
   backend,
@@ -109,4 +110,5 @@ export {
   TechnoQuiz,
   civic_infotech_logo,
   Emerging_five_logo,
+  Notion_image,
 };
