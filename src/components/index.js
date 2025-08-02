@@ -9,7 +9,7 @@ import Feedbacks from "./Feedbacks";
 import Contact from "./Contact";
 import CanvasLoader from "./Loader";
 import Gallery from './Gallery';
-
+import Portfolio_skills from './Portfolio_skills';
 
 export {
   Hero,
@@ -26,4 +26,5 @@ export {
   ComputersCanvas, 
   StarsCanvas,
   Gallery,
+  Portfolio_skills,
 };

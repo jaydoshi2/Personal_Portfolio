@@ -42,8 +42,9 @@ const About = () => {
 
   return (
     <>
-      <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>Introduction</p>
+     <div className="mt-72 sm:mt-0">
+     <motion.div variants={textVariant()}>
+        {/* <p className={styles.sectionSubText}>Introduction</p> */}
         <h2 className={styles.sectionHeadText}>Overview.</h2>
       </motion.div>
 
@@ -72,6 +73,7 @@ const About = () => {
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
       </div>
+     </div>
     </>
   )
 }
