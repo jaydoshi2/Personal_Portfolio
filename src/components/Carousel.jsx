@@ -1,6 +1,6 @@
 // "use client"
 
-import React, { useState, useCallback } from "react"
+import React, { useState, useCallback, useEffect } from "react"
 
 export const Carousel = ({ children, className = "" }) => {
   // Get array of slides (items) from CarouselContent children
@@ -8,6 +8,18 @@ export const Carousel = ({ children, className = "" }) => {
   const items = contentChild?.props.children || []
 
   const [currentIndex, setCurrentIndex] = useState(0)
+  const [isPaused, setIsPaused] = useState(false)
+
+  // Auto-advance functionality
+  useEffect(() => {
+    if (isPaused) return
+    
+    const interval = setInterval(() => {
+      setCurrentIndex((prevIndex) => (prevIndex === items.length - 1 ? 0 : prevIndex + 1))
+    }, 5000) // Change slide every 5 seconds
+
+    return () => clearInterval(interval)
+  }, [isPaused, items.length])
 
   // Previous button handler: wrap around
   const handlePrevious = useCallback(() => {
@@ -19,8 +31,17 @@ export const Carousel = ({ children, className = "" }) => {
     setCurrentIndex((prevIndex) => (prevIndex === items.length - 1 ? 0 : prevIndex + 1))
   }, [items.length])
 
+  // Go to specific slide
+  const goToSlide = useCallback((index) => {
+    setCurrentIndex(index)
+  }, [])
+
   return (
-    <div className={`relative w-full overflow-hidden ${className}`}>
+    <div 
+      className={`relative w-full overflow-hidden ${className}`}
+      onMouseEnter={() => setIsPaused(true)}
+      onMouseLeave={() => setIsPaused(false)}
+    >
       {React.Children.map(children, (child) => {
         // For the content wrapper, update its transform based on the current index
         if (child.type === CarouselContent) {

@@ -100,7 +100,7 @@ const Navbar = () => {
             download
             className="ml-2 px-4 py-2 bg-tertiary text-white rounded-lg font-medium text-sm hover:bg-opacity-80 transition-all"
           >
-            Download Resume
+            My Resume
           </a>
         </div>
 
@@ -143,27 +143,27 @@ const Navbar = () => {
 
               {/* Social Icons in Mobile Menu */}
               <div className="flex justify-between">
-                <IconWithTooltip href="https://github.com" label="GitHub">
+                <IconWithTooltip href="https://github.com/jaydoshi2" label="GitHub">
                   <Github size={20} />
                 </IconWithTooltip>
-                <IconWithTooltip href="https://linkedin.com" label="LinkedIn">
+                <IconWithTooltip href="https://linkedin.com/in/jay-doshi-812662262" label="LinkedIn">
                   <Linkedin size={20} />
                 </IconWithTooltip>
-                <IconWithTooltip href="https://x.com" label="X">
+                <IconWithTooltip href="https://x.com/doshijay838" label="X">
                   <XIcon size={20} />
                 </IconWithTooltip>
-                <IconWithTooltip href="https://leetcode.com" label="LeetCode">
+                <IconWithTooltip href="https://leetcode.com/u/workingjay2010/" label="LeetCode">
                   <Code size={20} />
                 </IconWithTooltip>
               </div>
 
               {/* Resume Button in Mobile Menu */}
               <a
-                href="/resume.pdf"
-                download
+                href="https://drive.google.com/file/d/1AoXKlnZ0xXXy1L5yS7QvvuBb-1IyoV9j/view?usp=sharing"
+                // download
                 className="w-full text-center px-4 py-2 bg-tertiary text-white rounded-lg font-medium text-sm hover:bg-opacity-80 transition-all"
               >
-                Download Resume
+                My Resume
               </a>
             </div>
           </div>

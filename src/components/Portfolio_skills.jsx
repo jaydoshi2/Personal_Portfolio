@@ -1,4 +1,5 @@
 "use client"
+import { useEffect } from "react"
 import { motion } from "framer-motion"
 import { styles } from "../styles"
 import { SectionWrapper } from "../hoc"
@@ -121,7 +122,10 @@ const SkillCard = ({ category, icon, skills, index }) => {
 const SkillsSection = ({ title, data, startIndex }) => {
   return (
     <div className="mb-16">
-      <motion.div variants={textVariant()} className="text-center mb-10">
+      <motion.div 
+        variants={textVariant()} 
+        className="text-center mb-10"
+      >
         <h2 className={`${styles.sectionHeadText} text-[#915EFF] mb-3`}>{title}</h2>
         <div className="w-24 h-1 mx-auto rounded-full bg-[#915EFF]"></div>
       </motion.div>
@@ -142,8 +146,15 @@ const SkillsSection = ({ title, data, startIndex }) => {
 }
 
 const Portfolio_skills = () => {
+  useEffect(() => {
+    console.log("Portfolio_skills component mounted")
+    console.log("Screen width:", window.innerWidth)
+    console.log("Screen height:", window.innerHeight)
+    console.log("User agent:", navigator.userAgent)
+  }, [])
+
   return (
-    <>
+    <div className="w-full min-h-screen py-10" style={{ backgroundColor: '#050816' }}>
       <motion.div variants={textVariant()}>
         <p className={`${styles.sectionSubText} text-center`}>What I bring to the table</p>
         <h2 className={`${styles.sectionHeadText} text-center text-[#915EFF]`}>Skills & Expertise</h2>
@@ -162,7 +173,7 @@ const Portfolio_skills = () => {
 
         <SkillsSection title="Soft Skills" data={softSkillsData} startIndex={technicalSkillsData.length} />
       </div>
-    </>
+    </div>
   )
 }
 

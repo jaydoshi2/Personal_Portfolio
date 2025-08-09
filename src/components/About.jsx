@@ -23,7 +23,6 @@ const ServiceCard = ({ index, title, icon }) => (
         className="bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col"
       >
         <img src={icon || "/placeholder.svg"} alt="web-development" className="w-16 h-16 object-contain" />
-
         <h3 className="text-white text-[20px] font-bold text-center">{title}</h3>
       </div>
     </motion.div>
@@ -31,34 +30,37 @@ const ServiceCard = ({ index, title, icon }) => (
 )
 
 const About = () => {
-  // Bullet points content
-  const bulletPoints = [
-    "Versatile software developer with robust background in development, logical structuring, and architecture design.",
-    "Extensive hands-on experience with React, Next.js, Django, and Spring Boot frameworks.",
-    "Led teams building innovative real-time applications including collaborative editing platforms and AI-driven learning systems.",
-    "Worked on IT Technician role and worked on Linux OS and Microsoft Offices-Suite, also worked on managing internal support tickets and delivering first-level technical support to end users.",
-    "Passionate about creating efficient, scalable, and user-friendly solutions for real-world challenges.",
-  ]
-
   return (
     <>
      <div className="mt-72 sm:mt-0">
      <motion.div variants={textVariant()}>
-        {/* <p className={styles.sectionSubText}>Introduction</p> */}
         <h2 className={styles.sectionHeadText}>Overview.</h2>
       </motion.div>
 
-      {/* Reduced spacing from mt-4 to mt-2 */}
       <div className="flex flex-col md:flex-row gap-6 items-center mt-2">
-        {/* Text content with bullet points */}
+        {/* Concise pitch content */}
         <motion.div variants={fadeIn("right", "", 0.1, 1)} className="md:w-2/3">
-          <ul className="list-disc pl-5 space-y-7">
-            {bulletPoints.map((point, index) => (
-              <li key={index} className="text-secondary text-[19px] md:text-[20px] leading-tight">
-                {point}
-              </li>
-            ))}
-          </ul>
+          <div className="space-y-4">
+            <p className="text-secondary text-[19px] md:text-[20px] leading-relaxed">
+              I build technology that provide real world soltuions, not just code that works.
+            </p>
+            
+            <p className="text-secondary text-[19px] md:text-[20px] leading-relaxed">
+              Among my peers, I'm the one who steps forward to lead—but I listen first. I synthesize diverse perspectives and help teams find consensus. I take responsibility for both success and failure.
+            </p>
+            
+            <p className="text-secondary text-[19px] md:text-[20px] leading-relaxed">
+              What drives me? Solving meaningful problems and helping others grow. I'm energized by new technologies, but even more by mentoring teammates and pushing boundaries together.
+            </p>
+            
+            <p className="text-secondary text-[19px] md:text-[20px] leading-relaxed">
+              My experience spans full-stack development, AI integration, and team leadership across multiple internships and university projects. I've led 4 teams, delivered performance improvements up to 30%, and maintained 95% on-time completion rates.
+            </p>
+            
+            <p className="text-secondary text-[19px] md:text-[20px] leading-relaxed">
+              Next: I want to deepen my expertise in scalable systems and AI. Seeking roles where I can contribute as both developer and leader—shaping products, mentoring teams, and making real impact.
+            </p>
+          </div>
         </motion.div>
 
         {/* Profile picture */}
@@ -67,7 +69,6 @@ const About = () => {
         </motion.div>
       </div>
 
-      {/* Reduced spacing from mt-20 to mt-12 */}
       <div className="mt-12 flex flex-wrap gap-10">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />

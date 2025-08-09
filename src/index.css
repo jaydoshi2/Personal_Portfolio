@@ -19,6 +19,90 @@
   display: block;
 }
 
+/* Ensure sections are visible on mobile */
+section {
+  min-height: 100vh;
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+
+/* Mobile-specific fixes */
+@media (max-width: 768px) {
+  section {
+    min-height: auto;
+    padding: 2rem 0;
+  }
+  
+  .hash-span {
+    margin-top: -50px;
+    padding-bottom: 50px;
+  }
+  
+  /* Ensure content is visible on mobile */
+  .bg-tertiary {
+    background-color: #151030 !important;
+  }
+  
+  /* Improve text readability on mobile */
+  .text-white {
+    color: white !important;
+  }
+  
+  .text-secondary {
+    color: #aaa6c3 !important;
+  }
+  
+  /* Ensure proper spacing on mobile */
+  .grid {
+    gap: 1rem !important;
+  }
+  
+  .p-5 {
+    padding: 1rem !important;
+  }
+  
+  .mb-16 {
+    margin-bottom: 2rem !important;
+  }
+  
+  .mt-20 {
+    margin-top: 2rem !important;
+  }
+  
+  /* Ensure framer-motion animations work on mobile */
+  [data-framer-motion] {
+    opacity: 1 !important;
+    visibility: visible !important;
+  }
+  
+  /* Force animation states to be visible on mobile */
+  .motion-safe\:animate-fadeIn {
+    opacity: 1 !important;
+  }
+  
+  /* Ensure viewport detection works on mobile */
+  .viewport-detection {
+    min-height: 100px;
+  }
+}
+
+/* Ensure animations work properly */
+.motion-safe\:animate-fadeIn {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 .black-gradient {
   background: #000000; /* fallback for old browsers */
   background: -webkit-linear-gradient(

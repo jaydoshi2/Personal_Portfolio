@@ -56,6 +56,8 @@ import lj_logo from './lj_logo.png';
 
 import Emerging_five_logo from './company/Emerging_Five_logo.png'
 import Notion_image from './notion_image.png'
+import utoledo_logo2 from './company/utoledo_logo2.png'
+import emerging_five_logo from "./company/emerging_five_logo.jpeg"
 export {
   logo,
   backend,
@@ -111,4 +113,6 @@ export {
   civic_infotech_logo,
   Emerging_five_logo,
   Notion_image,
+  utoledo_logo2,
+  emerging_five_logo,
 };

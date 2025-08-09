@@ -4,18 +4,9 @@ import {
   html,
   css,
   reactjs,
-  redux,
-  tailwind,
   nodejs,
   mongodb,
   git,
-  figma,
-  docker,
-  starbucks,
-  carrent,
-  jobit,
-  tripguide,
-  threejs,
   team_leader_icon,
   software_developer_icon,
   ai_and_ml_icon,
@@ -36,6 +27,8 @@ import {
   civic_infotech_logo,
   Emerging_five_logo,
   Notion_image,
+  utoledo_logo2,
+  emerging_five_logo,
 } from "../assets";
 
 export const navLinks = [
@@ -81,22 +74,6 @@ const services = [
 ];
 
 const technologies = [
-  // {
-  //   name: "HTML 5",
-  //   icon: html,
-  // },
-  // {
-  //   name: "C logo",
-  //   icon: c_logo,
-  // },
-  // {
-  //   name: "c++ logo",
-  //   icon: cpp_logo,
-  // },
-  // {
-  //   name: "CSS 3",
-  //   icon: css,
-  // },
   {
     name: "JavaScript",
     icon: javascript,
@@ -106,11 +83,7 @@ const technologies = [
     icon: typescript,
   },
   {
-    name: "Java logo",
-    icon: java_logo,
-  },
-  {
-    name: "Python logo",
+    name: "Python",
     icon: python_logo,
   }, 
   {
@@ -118,15 +91,15 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Nextjs logo",
+    name: "Next.js",
     icon: nextjs_logo,
   },
   {
-    name: "django",
+    name: "Django",
     icon: django_logo,
   },
   {
-    name: "Node JS",
+    name: "Node.js",
     icon: nodejs,
   },
   {
@@ -134,46 +107,24 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "github",
-    icon: github_logo,
-  },
-  {
-    name: "git",
+    name: "Git",
     icon: git,
   },
   {
-    name: "docker",
-    icon: docker,
-  },
-  {
-    name: "aws",
+    name: "AWS",
     icon: aws_logo,
   },
 ];
 
 const experiences = [
-   {
-    title:"Full Stack Intern",
-    company_name: "Emerging Five",
-    icon: Emerging_five_logo,
-    iconBg: "#383E56",
-    date: "September 2022- Febuary 2023",
-    points: [
-      "Leveraged MERN stack to craft UI, REST APIs,Backend Logic, and Database Integration, improves performance by 20%.",
-      "Delivered all assigned tasks within weekly sprints, collaborating with other developers to maintain a 95% on-time completion rate.",
-      "Debugged and resolved 50% of critical bugs through root-cause analysis, reducing system errors by 30%.",
-    ],
-  },
   {
-    title:"IT Intern",
-    company_name: "Civic Infotech",
-    icon: civic_infotech_logo,
+    title:"Drone Lab Assistant (Internship)",
+    company_name: "University of Toledo",
+    icon: utoledo_logo2,
     iconBg: "#383E56",
     date: "June 2023 - August 2023",
     points: [
-      "Diagnosed and resolved hardware and software issues, efficiently managed internal support tickets, and delivered responsive first-level technical support to end users.",
-      "Operated and maintained Linux-based systems using command-line tools, and utilized Microsoft Office to create clear and concise technical documentation.",
-      "Communicated directly with customers to address IT-related concerns, applying analytical thinking and a user-focused mindset to deliver effective solutions.",
+      "Provided comprehensive technical support and maintained documentation for Linux systems, resolving hardware/software issues while creating clear technical documentation using Microsoft Office Suite.",
     ],
   },
   {
@@ -183,38 +134,49 @@ const experiences = [
     iconBg: "#383E56",
     date: "March 2023 - September 2024",
     points: [
-      "Managed 4 teams on diverse projects at LJIET, gaining expertise in various technologies while simultaneously developingsoft skills such as effective communication, project management, collaboration, problem solving, and leadership.",
-      "Conducted training sessions on critical project concepts like Schema Designing and Architecture Project, introducingtools such as Git, GitHub, ExcailDraw, and AWS while embedding best practices, to enhance team capabilities; equippedteammates with technical proficiency and boosted project contributions",
-      "Applied a weekly progress review, streamlining communication and aligning teammates toward project goals by assigningtasks based on individual strengths, to foster collaboration; achieved increase in project delivery efficiency..",
+      "Led 4 diverse project teams, conducting training sessions on critical concepts while implementing weekly progress reviews that increased project delivery efficiency through effective communication and task delegation.",
+    ],
+  },
+
+  {
+    title:"Full Stack Intern",
+    company_name: "Emerging Five",
+    icon: emerging_five_logo,
+    iconBg: "#383E56",
+    date: "September 2022 - February 2023",
+    points: [
+      "Developed full-stack applications using MERN stack, improving performance by 20% while maintaining 95% on-time completion rate and resolving 50% of critical bugs through systematic analysis.",
     ],
   },
   
+  {
+    title:"IT Intern",
+    company_name: "Civic Infotech",
+    icon: civic_infotech_logo,
+    iconBg: "#383E56",
+    date: "June 2023 - August 2023",
+    points: [
+      "Delivered first-level technical support and maintained comprehensive documentation for Linux systems, resolving hardware/software issues while creating clear technical documentation using Microsoft Office Suite.",
+    ],
+  },
 ];
 
 const testimonials = [
   {
     testimonial:
-      "Jay has good skills in web development. He is a quick learner and has a great attitude towards work.",
+      "Jay consistently delivered high-quality code and showed excellent problem-solving skills. His collaborative approach made him a valuable team member.",
     name: "Jay Patel",
     designation: "CEO",
     company: "Emerging Five",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    image: "https://randomuser.me/api/portraits/men/4.jpg",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "Jay's leadership skills and technical expertise helped our team achieve project goals efficiently. He's a natural mentor and problem solver.",
+    name: "Priya Sharma",
+    designation: "Project Lead",
+    company: "Lok Jagruti University",
+    image: "https://randomuser.me/api/portraits/women/5.jpg",
   },
 ];
 

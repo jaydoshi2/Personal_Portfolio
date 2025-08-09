@@ -19,15 +19,16 @@ const ExperienceCard = ({ experience }) => {
         background: "#1d1836",
         color: "#fff",
       }}
-      contentArrowStyle={{ borderRight: "7px solid  #232631" }}
+      contentArrowStyle={{ borderRight: "8px solid  #232631" }}
       date={experience.date}
-      iconStyle={{ background: experience.iconBg }}
+      iconStyle={{ background: experience.iconBg, display: 'flex', alignItems: 'center', justifyContent: 'center', width: 70, height: 70 }} // Increased size
       icon={
         <div className='flex justify-center items-center w-full h-full'>
           <img
             src={experience.icon}
             alt={experience.company_name}
-            className='w-[60%] h-[60%] object-contain'
+            className='w-[70px] h-[70px] object-cover rounded-full' // Larger, fills circle, rounded
+            style={{ background: '#fff' }}
           />
         </div>
       }
