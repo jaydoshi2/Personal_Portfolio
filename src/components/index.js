@@ -10,6 +10,8 @@ import Contact from "./Contact";
 import CanvasLoader from "./Loader";
 import Gallery from './Gallery';
 import Portfolio_skills from './Portfolio_skills';
+import Resume from './Resume';
+import Certificates from './Certificates';
 
 export {
   Hero,
@@ -27,4 +29,6 @@ export {
   StarsCanvas,
   Gallery,
   Portfolio_skills,
+  Resume,
+  Certificates,
 };

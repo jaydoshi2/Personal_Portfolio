@@ -37,31 +37,29 @@ const About = () => {
         <h2 className={styles.sectionHeadText}>Overview.</h2>
       </motion.div>
 
-      <div className="flex flex-col md:flex-row gap-6 items-center mt-2">
-        {/* Concise pitch content */}
-        <motion.div variants={fadeIn("right", "", 0.1, 1)} className="md:w-2/3">
-          <div className="space-y-4">
-            <p className="text-secondary text-[19px] md:text-[20px] leading-relaxed">
-              I build technology that provide real world soltuions, not just code that works.
-            </p>
-            
-            <p className="text-secondary text-[19px] md:text-[20px] leading-relaxed">
-              Among my peers, I'm the one who steps forward to lead—but I listen first. I synthesize diverse perspectives and help teams find consensus. I take responsibility for both success and failure.
-            </p>
-            
-            <p className="text-secondary text-[19px] md:text-[20px] leading-relaxed">
-              What drives me? Solving meaningful problems and helping others grow. I'm energized by new technologies, but even more by mentoring teammates and pushing boundaries together.
-            </p>
-            
-            <p className="text-secondary text-[19px] md:text-[20px] leading-relaxed">
-              My experience spans full-stack development, AI integration, and team leadership across multiple internships and university projects. I've led 4 teams, delivered performance improvements up to 30%, and maintained 95% on-time completion rates.
-            </p>
-            
-            <p className="text-secondary text-[19px] md:text-[20px] leading-relaxed">
-              Next: I want to deepen my expertise in scalable systems and AI. Seeking roles where I can contribute as both developer and leader—shaping products, mentoring teams, and making real impact.
-            </p>
-          </div>
-        </motion.div>
+     <div className="flex flex-col md:flex-row gap-6 items-center mt-2">
+  {/* Concise pitch content */}
+  <motion.div variants={fadeIn("right", "", 0.1, 1)} className="md:w-2/3">
+    <div className="space-y-4">
+      <p className="text-secondary text-[19px] md:text-[20px] leading-relaxed">
+        I’m Jay Devesh Doshi a Computer Science student at the University of Toledo who builds technology that solves real-world problems, not just code that runs. I’ve shipped AI platforms, full-stack apps, and autonomous-drone systems that bridge research and production.
+      </p>
+
+      <p className="text-secondary text-[19px] md:text-[20px] leading-relaxed">
+        I lead by listening first: I bring teams together, synthesize diverse perspectives, and act as the communicator and point-person to drive decisions. As a team lead and intern, I’ve guided cross-team delivery, improved feature performance , and reduced post-deployment issues.
+      </p>
+
+      <p className="text-secondary text-[19px] md:text-[20px] leading-relaxed">
+        What drives me is solving meaningful problems and helping teammates grow I enjoy mentoring peers, improving processes, and turning prototypes into reliable products that users can trust.
+      </p>
+
+      {/* <p className="text-secondary text-[19px] md:text-[20px] leading-relaxed">
+        Next, I want to deepen my expertise in scalable systems and AI. I’m seeking roles where I can contribute as both developer and leader building products, mentoring teammates, and delivering measurable impact.
+      </p> */}
+    </div>
+  </motion.div>
+{/* </div> */}
+
 
         {/* Profile picture */}
         <motion.div variants={fadeIn("left", "", 0.1, 1)} className="md:w-1/3 flex justify-center">

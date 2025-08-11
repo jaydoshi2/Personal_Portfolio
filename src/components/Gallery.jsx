@@ -1,33 +1,45 @@
-import { rocketHacks_pic, Lj_innovation_Pic, TechnoQuiz, Startup_event } from "../assets"
+import { rocketHacks_pic, Lj_innovation_Pic, TechnoQuiz, Startup_event,PyOhio,tech_town } from "../assets"
 import { useState } from "react"
 
 // Fixed import path for carousel components
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "./Carousel"
 
 const exampleImages = [
+  {
+      src: PyOhio,
+      alt: "PyOhio 2025",
+      caption: "Attended PyOhio 2025 and represented toledo codes organization and learned about python and its applications",
+      index: 0
+  },
+  {
+    src: tech_town,
+    alt: "The AI collective Detroit Chapter",
+    caption: "The AI collective chapter at detroit at TECH TOWN DETROIT, represented toledo codes and made new connections.",
+    index: 1
+  },
   { 
     src: rocketHacks_pic, 
     alt: "RocketHacks 2025", 
     caption: "Won 1st place at RocketHacks 2025 for BEST USE OF MONGODB developing fake news detection app Deeptruth AI",
-    index: 0 
+    index: 2
   },
   { 
     src: Lj_innovation_Pic, 
     alt: "LJ Innovation Village", 
     caption: "Led team to victory at LJ Innovation Village competition with collaborative editing platform",
-    index: 1 
-  },
-  { 
-    src: Startup_event, 
-    alt: "LJ Startup Event", 
-    caption: "Presented SkillsBridge EdTech platform at university startup showcase",
-    index: 2 
+    index: 3
   },
   { 
     src: TechnoQuiz, 
     alt: "Techno Quiz Competition", 
     caption: "Achieved 1st ranking in inter-university technical knowledge competition",
-    index: 3 
+    index: 4
+  },
+  { 
+    src: Startup_event, 
+    alt: "LJ Startup Event", 
+    caption: "Presented SkillsBridge EdTech platform at university startup showcase",
+    index: 5
   },
 ]
 
@@ -41,11 +53,10 @@ const Gallery = ({ images = exampleImages }) => {
           JD GALLERY
         </h2>
         
-        {/* Responsive container using percentage and viewport units */}
+        {/* Enforce consistent slide size with a fixed aspect ratio */}
         <div
-          className="relative w-full max-w-[90%] sm:max-w-[85%] md:max-w-[80%] lg:max-w-[75%] xl:max-w-[70%] 
-                        h-[300px] sm:h-[350px] md:h-[400px] lg:h-[500px] xl:h-[600px] 
-                        overflow-hidden mx-auto"
+          className="relative w-full max-w-[90%] sm:max-w-[85%] md:max-w-[80%] lg:max-w-[75%] xl:max-w-[70%] overflow-hidden mx-auto rounded-lg bg-black"
+          style={{ aspectRatio: '16 / 9' }}
         >
           <Carousel className="w-full h-full">
             <CarouselContent>

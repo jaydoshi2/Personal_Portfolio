@@ -95,13 +95,7 @@ const Navbar = () => {
           <IconWithTooltip href="https://leetcode.com/u/workingjay2010/" label="LeetCode">
             <Code size={20} />
           </IconWithTooltip>
-          <a
-            href="https://drive.google.com/file/d/1AoXKlnZ0xXXy1L5yS7QvvuBb-1IyoV9j/view?usp=sharing"
-            download
-            className="ml-2 px-4 py-2 bg-tertiary text-white rounded-lg font-medium text-sm hover:bg-opacity-80 transition-all"
-          >
-            My Resume
-          </a>
+          
         </div>
 
         {/* Mobile Menu Button */}
@@ -157,14 +151,7 @@ const Navbar = () => {
                 </IconWithTooltip>
               </div>
 
-              {/* Resume Button in Mobile Menu */}
-              <a
-                href="https://drive.google.com/file/d/1AoXKlnZ0xXXy1L5yS7QvvuBb-1IyoV9j/view?usp=sharing"
-                // download
-                className="w-full text-center px-4 py-2 bg-tertiary text-white rounded-lg font-medium text-sm hover:bg-opacity-80 transition-all"
-              >
-                My Resume
-              </a>
+              
             </div>
           </div>
         </div>

@@ -41,6 +41,10 @@ export const navLinks = [
     title: "Experience",
   },
   {
+    id: "skills",
+    title: "Skills",
+  },
+  {
     id: "Projects",
     title: "Projects",
   },
@@ -51,6 +55,23 @@ export const navLinks = [
   {
     id: "contact",
     title: "Contact",
+  },
+];
+
+export const certificates = [
+  {
+    title: "AWS Cloud Technical Essentials",
+    provider: "Amazon Web Services · Coursera",
+    url: "https://www.coursera.org/account/accomplishments/verify/VKYVF30I0LAY",
+    preview: "https://www.coursera.org/account/accomplishments/verify/VKYVF30I0LAY",
+    date: "Feb 24, 2025",
+  },
+  {
+    title: "Exploratory Data Analysis for Machine Learning",
+    provider: "IBM · Coursera",
+    url: "https://www.coursera.org/account/accomplishments/records/HDQHRW3ADDY5",
+    preview: "https://www.coursera.org/account/accomplishments/records/HDQHRW3ADDY5",
+    date: "Aug 12, 2024",
   },
 ];
 

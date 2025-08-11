@@ -58,6 +58,9 @@ import Emerging_five_logo from './company/Emerging_Five_logo.png'
 import Notion_image from './notion_image.png'
 import utoledo_logo2 from './company/utoledo_logo2.png'
 import emerging_five_logo from "./company/emerging_five_logo.jpeg"
+
+import PyOhio from "./PyOhio.jpg"
+import tech_town from "./techtown_detroit.jpg"
 export {
   logo,
   backend,
@@ -115,4 +118,6 @@ export {
   Notion_image,
   utoledo_logo2,
   emerging_five_logo,
+  PyOhio,
+  tech_town,
 };

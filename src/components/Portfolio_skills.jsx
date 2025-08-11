@@ -19,6 +19,7 @@ import {
   UserCheck,
 } from "lucide-react"
 
+// --- trimmed to only skills supported by your resume & projects ---
 const technicalSkillsData = [
   {
     category: "Programming",
@@ -26,72 +27,61 @@ const technicalSkillsData = [
     skills: ["Core Java", "Python", "C++", "C", "JavaScript", "HTML5", "CSS3"],
   },
   {
-    category: "Software Development",
+    category: "Web & Full-Stack",
     icon: <Cog className="w-6 h-6" />,
-    skills: ["System Design", "Code Reviews", "Software Engineering Best Practices", "SDLC", "Agile Methodology"],
+    skills: ["React / Next.js", "Node.js", "Django", "REST APIs", "Firebase"],
   },
   {
-    category: "Data Analyst",
-    icon: <BarChart3 className="w-6 h-6" />,
-    skills: ["Data Visualization", "Statistical Analysis", "Excel", "Tableau", "Power BI", "Data Mining"],
-  },
-  {
-    category: "Databases",
+    category: "Databases & Cloud",
     icon: <Database className="w-6 h-6" />,
-    skills: ["PostgreSQL", "MySQL", "MongoDB", "Firebase", "SQL Optimization", "Database Design"],
+    skills: ["PostgreSQL", "MySQL", "MongoDB", "AWS (S3, Lambda, Amplify)", "GCP"],
   },
   {
-    category: "Cloud & DevOps",
+    category: "DevOps & Tooling",
     icon: <Cloud className="w-6 h-6" />,
-    skills: ["AWS", "Google Cloud Platform", "Docker", "Git", "GitHub", "CI/CD Pipelines", "Quality Assurance"],
+    skills: ["Docker", "Git / GitHub", "CI/CD (GitHub Actions)", "Deployment & Monitoring"],
   },
   {
-    category: "AI & Machine Learning",
+    category: "AI & ML",
     icon: <Brain className="w-6 h-6" />,
-    skills: [
-      "Machine Learning Algorithms",
-      "Deep Learning",
-      "Neural Networks",
-      "TensorFlow",
-      "Scikit-learn",
-      "Data Science",
-    ],
+    skills: ["Fine-tuning (DistilBERT)", "Hugging Face", "Semantic Search", "TensorFlow / scikit-learn"],
+  },
+  {
+    category: "Robotics & Simulation",
+    icon: <BarChart3 className="w-6 h-6" />,
+    skills: ["ROS2", "Gazebo", "PX4", "WebSocket integration", "PID autotuning"],
   },
 ]
 
 const softSkillsData = [
   {
-    category: "Management",
-    icon: <Users className="w-6 h-6" />,
-    skills: ["Project Management", "Team Coordination", "Resource Planning", "Risk Management", "Strategic Planning"],
-  },
-  {
-    category: "Leadership",
+    category: "Leadership & Mentoring",
     icon: <UserCheck className="w-6 h-6" />,
-    skills: ["Team Leadership", "Mentoring", "Decision Making", "Conflict Resolution", "Vision Setting"],
+    skills: ["Team Leadership", "Mentoring", "Decision Making", "Listening & Synthesizing"],
   },
   {
     category: "Communication",
     icon: <MessageSquare className="w-6 h-6" />,
-    skills: ["Technical Writing", "Presentation Skills", "Client Communication", "Documentation", "Public Speaking"],
+    skills: ["Technical Writing", "Documentation", "Presentations", "Stakeholder Communication"],
+  },
+  {
+    category: "Project Management & QA",
+    icon: <Users className="w-6 h-6" />,
+    skills: ["Agile/Scrum", "Code Reviews", "Risk & Incident Management", "Quality Assurance"],
   },
   {
     category: "Problem Solving",
     icon: <Lightbulb className="w-6 h-6" />,
-    skills: ["Critical Thinking", "Analytical Skills", "Creative Solutions", "Debugging", "Innovation"],
+    skills: ["Debugging", "Analytical Thinking", "Practical Solutions", "Optimization"],
   },
   {
-    category: "Project Management",
-    icon: <Target className="w-6 h-6" />,
-    skills: ["Agile/Scrum", "Timeline Management", "Budget Planning", "Quality Control", "Stakeholder Management"],
-  },
-  {
-    category: "Time Management",
+    category: "Execution",
     icon: <Clock className="w-6 h-6" />,
-    skills: ["Prioritization", "Multitasking", "Deadline Management", "Efficiency Optimization", "Work-Life Balance"],
+    skills: ["Prioritization", "On-time Delivery", "Task Ownership"],
   },
 ]
 
+/* rest of your component unchanged — SkillCard, SkillsSection, Portfolio_skills, export */
 const SkillCard = ({ category, icon, skills, index }) => {
   return (
     <motion.div
